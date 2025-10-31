@@ -1,0 +1,2 @@
+# exportar_marcadoresPre
+# Exportar Marcadores de Premiere con FFmpeg  Este script automatiza el corte de videos basándose en los **marcadores exportados desde Adobe Premiere Pro**. Permite elegir los archivos `.csv` y `.mp4` mediante ventanas de selección, y exporta los clips con **FFmpeg** aprovechando toda la potencia de tu GPU (RTX).  ## 🚀 Requisitos - Python 3.9 o superior   - FFmpeg instalado y agregado al PATH   - Tarjeta NVIDIA compatible con NVENC (opcional)  Instala dependencias: ```bash pip install -r requirements.txt
